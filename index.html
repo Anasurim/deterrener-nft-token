@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Goab</title>
+    <title>Deterrenter</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -14,5 +14,33 @@
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-  <body></body>
+  <body>
+    <section class="page-header">
+      <div class="container">
+        <nav class="page-header__nav">
+          <a href="#" class="logo">
+            <svg class="logo__logo-icon" x="93" y="60">
+              <use href="./img/icons.svg#icon-logo" />
+            </svg>
+          </a>
+
+          <button
+            type="button"
+            class="menu-btn is-open js-open-menu"
+            aria-label="menu switcher"
+            aria-expanded="false"
+            aria-controls="page-header__menu"
+          >
+            <svg class="menu-btn__icon" width="60" height="32">
+              <use
+                href="./img/icons.svg#icon-menu"
+                class="menu-btn__icon-menu"
+              ></use>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </section>
+    <section class="hero"></section>
+  </body>
 </html>

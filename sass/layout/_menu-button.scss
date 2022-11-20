@@ -1,0 +1,16 @@
+.menu-btn {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+}
+
+.menu-btn__icon {
+  display: inline-block;
+  width: 60px;
+  height: 32px;
+  fill: currentColor;
+}

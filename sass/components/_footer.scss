@@ -1,25 +1,29 @@
 .footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #1f2a46;
 }
-.container {
-}
-.logo {
-}
-.logo__logo-icon {
-}
-.logo__logo-icon--theme {
-}
-.logo__logo-text {
-}
+
 .footer__text {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: calc(16 / 11);
+  text-align: center;
+  color: #ffffff;
 }
-.social-list {
+
+.footer__line {
+  width: 100%;
+  height: 2px;
+  margin-bottom: 18px;
+  background-color: #364a7b;
 }
-.social-list__item {
-}
-.social-list__link {
-}
-.social-list__icon {
-}
+
 .footer__copyright {
+  text-align: center;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: calc(14 / 10);
+  color: #ffffff;
 }

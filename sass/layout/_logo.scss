@@ -7,3 +7,19 @@
 
   fill: currentColor;
 }
+
+.logo--footer-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 32px;
+}
+
+.logo__logo-icon--theme {
+  fill: #cfdae4;
+}
+
+.logo__logo-text {
+  fill: #cfdae4;
+}

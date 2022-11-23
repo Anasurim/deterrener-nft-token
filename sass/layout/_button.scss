@@ -22,4 +22,8 @@
 
 .button--mb {
   margin-bottom: 200px;
+
+  @media screen and (min-width: 414px) {
+    margin-bottom: 230px;
+  }
 }

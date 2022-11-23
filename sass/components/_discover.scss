@@ -1,0 +1,18 @@
+.discover {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background-color: #cfdae4;
+  mix-blend-mode: multiply;
+  box-shadow: inset 0px 16px 32px rgba(0, 0, 0, 0.25);
+}
+
+.discover__title {
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: calc(46 / 32);
+  color: #1f2a46;
+}
+.discover__descr {
+  margin-bottom: 32px;
+}

@@ -61,6 +61,7 @@
             alt="money"
             class="hero__img"
           />
+
           <p class="hero__cite-name">
             <cite class="hero__cite-text">
               “An ounce of prevention is worth a pound of cure”
@@ -108,13 +109,26 @@
         </div>
       </section>
 
+      <picture>
+        <source
+          srcset="img/deter-token-768.jpg 414w"
+          media="(min-width: 320px)"
+          sizes="(min-width: 320px) 414px, 100vw"
+        />
+        <source
+          srcset="img/deter-token-1400.jpg 768w"
+          media="(min-width: 414px)"
+          sizes="(min-width: 414px) 768px, 100vw"
+        />
+        <img
+          src="img/deter-token-768.jpg"
+          alt="token tree"
+          class="discover__img"
+        />
+      </picture>
+
       <section class="discover">
         <div class="container">
-          <img
-            src="./img/deter-token.jpg"
-            alt="token tree"
-            class="discover__img"
-          />
           <h2 class="discover__title">No time for the hype</h2>
           <p class="discover__descr">
             That absurd and risky challenge is worth the try just to be noticed

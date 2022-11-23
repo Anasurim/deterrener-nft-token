@@ -1,0 +1,39 @@
+.about {
+  background-color: #020306;
+  padding-bottom: 60px;
+}
+
+.about__img {
+  margin-bottom: 32px;
+}
+
+.about__title {
+  margin-bottom: 64px;
+
+  font-weight: 400;
+  font-size: 32px;
+  line-height: calc(46 / 32);
+  text-align: center;
+  color: #ffffff;
+}
+.about__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  text-align: center;
+}
+.about__item {
+}
+.about__icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+.about__descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(23 / 16);
+
+  color: #ffffff;
+}

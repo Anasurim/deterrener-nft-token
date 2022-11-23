@@ -6,9 +6,18 @@
   width: 171px;
   height: 55px;
   padding: 0;
+  margin: 0;
   background: #d53f2b;
   border-radius: 8px;
   border: 0 transparent;
+
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 .button--mb {

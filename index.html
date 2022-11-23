@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header" data-header>
       <div class="container">
         <nav class="page-header__nav">
           <a href="#" class="logo">
@@ -61,7 +61,6 @@
             alt="money"
             class="hero__img"
           />
-
           <p class="hero__cite-name">
             <cite class="hero__cite-text">
               “An ounce of prevention is worth a pound of cure”
@@ -72,7 +71,7 @@
       </section>
 
       <section class="about">
-        <img src="./img/deter-likes.png" alt="likes" />
+        <img src="./img/deter-likes.png" alt="likes" class="about__img" />
         <div class="container">
           <h2 class="about__title">
             Extensive research leads to proper decision making
@@ -204,5 +203,7 @@
         <p class="footer__copyright">&#169;2022 NYUUDO</p>
       </div>
     </footer>
+
+    <script src="./js/header-scroll.js"></script>
   </body>
 </html>

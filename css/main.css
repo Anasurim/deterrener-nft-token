@@ -229,4 +229,60 @@ img {
 
 .discover__descr {
   margin-bottom: 32px;
+}
+
+.users {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/deter-user.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/deter-user.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.users__text {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 42px;
+  display: block;
+  max-width: 266px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4375;
+  color: #ffffff;
+}
+
+.users__title {
+  margin-bottom: 32px;
+}
+
+.users__cite {
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3333333333;
+  color: #ffffff;
+}
+.users__cite cite {
+  font-style: normal;
+}
+
+.users__descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4375;
+  color: #ffffff;
+}
+
+.users__descr--mb {
+  margin-bottom: 16px;
+}
+
+.users__color-text {
+  color: #fed404;
+}
+
+.footer {
+  background-color: #1f2a46;
 }/*# sourceMappingURL=main.css.map */

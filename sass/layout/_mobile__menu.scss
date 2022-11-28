@@ -10,7 +10,7 @@
   background-color: #ffd606;
 
   transform: translateX(-100%);
-  transition: transform 250ms $hover-time-func;
+  transition: transform 250ms ease-in-out;
 
   &.is-open {
     display: flex;

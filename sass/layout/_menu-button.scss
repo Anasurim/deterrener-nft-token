@@ -5,9 +5,23 @@
   border: none;
   cursor: pointer;
   background-color: transparent;
+
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
 }
 
 .menu-btn__icon {
   width: 60px;
   height: 32px;
+}
+
+.menu-btn {
+}
+.menu-btn--close {
+}
+.js-close-menu {
+}
+
+.menu-btn__icon-cross {
 }

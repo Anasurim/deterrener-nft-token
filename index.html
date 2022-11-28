@@ -139,17 +139,34 @@
 
       <picture>
         <source
-          srcset="img/deter-token-768.jpg 414w"
-          media="(min-width: 320px)"
-          sizes="(min-width: 320px) 414px, 100vw"
+          srcset="
+            img/deter-token_lg@1x.jpg  710w,
+            img/deter-token_lg@2x.jpg 1420w
+          "
+          media="(min-width: 769px)"
+          sizes="(min-width: 769px) 710px, 50vw"
         />
+
         <source
-          srcset="img/deter-token-1400.jpg 768w"
-          media="(min-width: 414px)"
-          sizes="(min-width: 414px) 768px, 100vw"
+          srcset="
+            img/deter-token_md@1x.jpg  768w,
+            img/deter-token_md@2x.jpg 1536w
+          "
+          media="(min-width: 415px)"
+          sizes="(min-width: 415px) 768px, 100vw"
         />
+
+        <source
+          srcset="
+            img/deter-token_sm@1x.jpg 414w,
+            img/deter-token_sm@2x.jpg 828w
+          "
+          media="(max-width: 414px)"
+          sizes="(max-width: 414px) 414px, 100vw"
+        />
+
         <img
-          src="img/deter-token-768.jpg"
+          src="img/deter-token_sm@1x.jpg"
           alt="token tree"
           class="discover__img"
         />
@@ -252,5 +269,6 @@
     </footer>
 
     <script src="./js/header-scroll.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

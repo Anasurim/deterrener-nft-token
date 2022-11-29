@@ -7,7 +7,7 @@
   height: 55px;
   padding: 0;
   margin: 0;
-  background: #d53f2b;
+  background-color: #d53f2b;
   border-radius: 8px;
   border: 0 transparent;
 
@@ -18,6 +18,14 @@
   text-transform: uppercase;
 
   color: #ffffff;
+
+  transition: background-color 250ms ease-in-out;
+
+  &:hover,
+  :focus {
+    background: #6ba4c2;
+    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
+  }
 }
 
 .button--mb {
@@ -26,4 +34,13 @@
   @media screen and (min-width: 414px) {
     margin-bottom: 230px;
   }
+}
+
+.button--transparent {
+  margin-top: auto;
+
+  background-color: transparent;
+  color: #1f2a46;
+  border: 2px solid #1f2a46;
+  border-radius: 32px;
 }

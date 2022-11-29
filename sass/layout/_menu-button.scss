@@ -5,9 +5,15 @@
   border: none;
   cursor: pointer;
   background-color: transparent;
+  transition: fill 250ms ease-in-out;
 
   @media screen and (min-width: 1024px) {
     display: none;
+  }
+
+  &:hover,
+  :focus {
+    fill: #d53f2b;
   }
 }
 
@@ -16,12 +22,12 @@
   height: 32px;
 }
 
-.menu-btn {
-}
 .menu-btn--close {
-}
-.js-close-menu {
-}
+  position: absolute;
+  top: 10px;
+  right: 10px;
 
-.menu-btn__icon-cross {
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
 }

@@ -1,4 +1,5 @@
 .users {
+  position: relative;
   padding-top: 40px;
   padding-bottom: 40px;
 
@@ -76,6 +77,26 @@
   line-height: calc(23 / 16);
 
   color: #ffffff;
+
+  &::before {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    display: block;
+    content: "";
+    width: 70px;
+    border-bottom: 2px dashed #ffffff;
+  }
+
+  &::after {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    display: block;
+    content: "";
+    width: 70px;
+    border-bottom: 6px solid #ffffff;
+  }
 }
 .users__title {
   margin-bottom: 32px;

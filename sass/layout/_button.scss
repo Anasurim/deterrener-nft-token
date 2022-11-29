@@ -31,8 +31,9 @@
 .button--mb {
   margin-bottom: 200px;
 
-  @media screen and (min-width: 414px) {
+  @media screen and (min-width: 415px) {
     margin-bottom: 230px;
+    margin-left: 80px;
   }
 }
 

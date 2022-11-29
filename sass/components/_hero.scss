@@ -10,6 +10,30 @@
       rgba(0, 0, 0, 1) 100%
     ),
     url("../img/deter-background.png");
+
+  @media screen and (min-width: 415px) {
+    background-image: linear-gradient(
+        180deg,
+        #ffd606 53.65%,
+        rgba(254, 212, 4, 0) 65%,
+        rgba(0, 0, 0, 1) 88%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url("../img/deter-background_md.png");
+  }
+
+  @media screen and (min-width: 769px) {
+    background-image: linear-gradient(
+        180deg,
+        #ffd606 53.65%,
+        rgba(254, 212, 4, 0) 65%,
+        rgba(0, 0, 0, 1) 88%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url("../img/deter-background_lg.png");
+  }
+
+  background-repeat: no-repeat;
 }
 
 .hero__title {
@@ -23,6 +47,16 @@
   line-height: calc(46 / 32);
 
   color: #000000;
+
+  @media screen and (min-width: 415px) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    max-width: 466px;
+    font-size: 48px;
+    line-height: calc(64 / 48);
+  }
 }
 
 .hero__text {
@@ -33,6 +67,14 @@
   line-height: calc(23 / 16);
 
   color: #000000;
+
+  @media screen and (min-width: 415px) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    max-width: 466px;
+  }
 }
 
 .hero__img {

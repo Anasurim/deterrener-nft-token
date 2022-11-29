@@ -88,11 +88,31 @@
           <p class="hero__text">Leaving Instagram for TikTok is not enough</p>
           <button type="button" class="button button--mb">Find how</button>
 
-          <img
-            src="./img/deter-burning-capital.png"
-            alt="money"
-            class="hero__img"
-          />
+          <picture>
+            <source
+              srcset="img/deter-burning-capital_lg.png 1440w"
+              media="(min-width: 769px)"
+              sizes="(min-width: 769px) 1440px, 100vw"
+            />
+
+            <source
+              srcset="img/deter-burning-capital_md.png 768w"
+              media="(min-width: 415px)"
+              sizes="(min-width: 415px) 768px, 100vw"
+            />
+
+            <source
+              srcset="img/deter-burning-capital.png 414w"
+              media="(max-width: 414px)"
+              sizes="(max-width: 414px) 414px, 100vw"
+            />
+
+            <img
+              src="./img/deter-burning-capital.png"
+              alt="money"
+              class="hero__img"
+            />
+          </picture>
 
           <p class="hero__cite-name">
             <cite class="hero__cite-text">

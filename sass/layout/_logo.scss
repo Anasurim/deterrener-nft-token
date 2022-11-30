@@ -1,5 +1,17 @@
 .logo {
+  display: flex;
+  align-items: center;
   color: #000;
+  text-decoration: none;
+}
+
+.logo__logo-text {
+  display: none;
+
+  @media screen and (min-width: 600px) {
+    display: block;
+    fill: currentColor;
+  }
 }
 
 .logo__logo-icon {
@@ -20,6 +32,6 @@
   fill: #cfdae4;
 }
 
-.logo__logo-text {
+.logo__logo-text--color {
   fill: #cfdae4;
 }

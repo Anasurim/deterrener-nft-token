@@ -28,14 +28,11 @@
   }
 }
 
-.button--mb {
-  margin-bottom: 200px;
-
-  @media screen and (min-width: 415px) {
-    margin-bottom: 230px;
-    margin-left: 80px;
-  }
-}
+// .button--mb {
+//   @media screen and (min-width: 415px) {
+//     margin-left: 80px;
+//   }
+// }
 
 .button--transparent {
   margin-top: auto;

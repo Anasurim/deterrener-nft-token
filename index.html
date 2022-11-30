@@ -28,6 +28,10 @@
             <svg class="logo__logo-icon" width="90" height="60">
               <use href="./img/icons.svg#icon-logo" />
             </svg>
+
+            <svg class="logo__logo-text" width="206" height="32">
+              <use href="./img/icons.svg#icon-logo-text" />
+            </svg>
           </a>
 
           <button
@@ -87,40 +91,40 @@
           </h1>
           <p class="hero__text">Leaving Instagram for TikTok is not enough</p>
           <button type="button" class="button button--mb">Find how</button>
-
-          <picture>
-            <source
-              srcset="img/deter-burning-capital_lg.png 1440w"
-              media="(min-width: 769px)"
-              sizes="(min-width: 769px) 1440px, 100vw"
-            />
-
-            <source
-              srcset="img/deter-burning-capital_md.png 768w"
-              media="(min-width: 415px)"
-              sizes="(min-width: 415px) 768px, 100vw"
-            />
-
-            <source
-              srcset="img/deter-burning-capital.png 414w"
-              media="(max-width: 414px)"
-              sizes="(max-width: 414px) 414px, 100vw"
-            />
-
-            <img
-              src="./img/deter-burning-capital.png"
-              alt="money"
-              class="hero__img"
-            />
-          </picture>
-
-          <p class="hero__cite-name">
-            <cite class="hero__cite-text">
-              “An ounce of prevention is worth a pound of cure”
-            </cite>
-            Benjamin Franklin
-          </p>
         </div>
+
+        <picture>
+          <source
+            srcset="img/deter-burning-capital_lg.png 1440w"
+            media="(min-width: 769px)"
+            sizes="(min-width: 769px) 1440px, 100vw"
+          />
+
+          <source
+            srcset="img/deter-burning-capital_md.png 768w"
+            media="(min-width: 415px)"
+            sizes="(min-width: 415px) 768px, 100vw"
+          />
+
+          <source
+            srcset="img/deter-burning-capital.png 414w"
+            media="(max-width: 414px)"
+            sizes="(max-width: 414px) 414px, 100vw"
+          />
+
+          <img
+            src="./img/deter-burning-capital.png"
+            alt="money"
+            class="hero__img"
+          />
+        </picture>
+
+        <p class="hero__cite-name">
+          <cite class="hero__cite-text">
+            “An ounce of prevention is worth a pound of cure”
+          </cite>
+          Benjamin Franklin
+        </p>
       </section>
 
       <section class="about">
@@ -199,12 +203,20 @@
       <section class="discover">
         <div class="container">
           <h2 class="discover__title">No time for the hype</h2>
-          <p class="discover__descr">
-            That absurd and risky challenge is worth the try just to be noticed
-            online? Investing your time and resources in that “hashtag” is
-            really a good idea? Does compensates You to spend so much time in a
-            new trend just to feel that You are part of your day and age?
-          </p>
+          <ul class="discover__descr">
+            <li class="discover__item">
+              That absurd and risky challenge is worth the try just to be
+              noticed online?
+            </li>
+            <li class="discover__item">
+              Investing your time and resources in that “hashtag” is really a
+              good idea?
+            </li>
+            <li class="discover__item">
+              Does compensates You to spend so much time in a new trend just to
+              feel that You are part of your day and age?
+            </li>
+          </ul>
           <button type="button" class="button">Discover</button>
         </div>
       </section>
@@ -250,43 +262,51 @@
           >
             <use href="./img/icons.svg#icon-logo" />
           </svg>
-          <svg class="logo__logo-text" width="130" height="21">
+          <svg
+            class="logo__logo-text logo__logo-text--color"
+            width="130"
+            height="21"
+          >
             <use href="./img/icons.svg#icon-logo-text" />
           </svg>
         </a>
-        <p class="footer__text">
-          Stay in touch for the latest hashtaggressive skepticism at:
-        </p>
-        <ul class="social-list">
-          <li class="social-list__item">
-            <a href="#" class="social-list__link">
-              <svg class="social-list__icon" width="16" height="16">
-                <use href="./img/icons.svg#icon-instagram" />
-              </svg>
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a href="#" class="social-list__link">
-              <svg class="social-list__icon" width="16" height="16">
-                <use href="./img/icons.svg#icon-telegram" />
-              </svg>
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a href="#" class="social-list__link">
-              <svg class="social-list__icon" width="16" height="16">
-                <use href="./img/icons.svg#icon-tiktok" />
-              </svg>
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a href="#" class="social-list__link">
-              <svg class="social-list__icon" width="16" height="16">
-                <use href="./img/icons.svg#icon-facebook" />
-              </svg>
-            </a>
-          </li>
-        </ul>
+
+        <div class="footer__wrapper">
+          <p class="footer__text">
+            Stay in touch for the latest hashtaggressive skepticism at:
+          </p>
+          <ul class="social-list">
+            <li class="social-list__item">
+              <a href="#" class="social-list__link">
+                <svg class="social-list__icon" width="16" height="16">
+                  <use href="./img/icons.svg#icon-instagram" />
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="#" class="social-list__link">
+                <svg class="social-list__icon" width="16" height="16">
+                  <use href="./img/icons.svg#icon-telegram" />
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="#" class="social-list__link">
+                <svg class="social-list__icon" width="16" height="16">
+                  <use href="./img/icons.svg#icon-tiktok" />
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="#" class="social-list__link">
+                <svg class="social-list__icon" width="16" height="16">
+                  <use href="./img/icons.svg#icon-facebook" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div class="footer__line"></div>
         <p class="footer__copyright">&#169;2022 NYUUDO</p>
       </div>

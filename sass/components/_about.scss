@@ -1,10 +1,16 @@
 .about {
   background-color: #020306;
   padding-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 53px;
+  }
 }
 
 .about__img {
   margin-bottom: 32px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .about__title {
@@ -21,6 +27,12 @@
   flex-direction: column;
   gap: 32px;
   text-align: center;
+
+  @media screen and (min-width: 415px) {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 420px;
+  }
 }
 
 .about__icon {

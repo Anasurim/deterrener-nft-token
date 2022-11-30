@@ -38,4 +38,11 @@
   text-transform: uppercase;
 
   color: #1f2a46;
+
+  transition: color 250ms ease-in-out;
+
+  &:hover,
+  :focus {
+    color: #d53f2b;
+  }
 }

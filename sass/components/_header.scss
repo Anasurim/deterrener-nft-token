@@ -22,3 +22,34 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.page-header__list {
+  display: none;
+
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: auto;
+  }
+}
+
+.page-header__link {
+  text-decoration: none;
+  font-family: "Quicksand";
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #1f2a46;
+
+  transition: color 250ms ease-in-out;
+
+  &:hover,
+  :focus {
+    color: #d53f2b;
+  }
+}

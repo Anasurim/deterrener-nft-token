@@ -1,4 +1,5 @@
 .discover {
+  flex: 1;
   padding-top: 84px;
   padding-bottom: 84px;
   background-color: #cfdae4;
@@ -9,6 +10,22 @@
     padding-top: 124px;
     padding-bottom: 124px;
   }
+}
+
+@media screen and (min-width: 1440px) {
+  .discover__wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.discover__thumb {
+  @media screen and (min-width: 1440px) {
+    width: 710px;
+  }
+  flex: 1;
+  background-color: #cfdae4;
+  box-shadow: inset 0px 16px 32px rgba(0, 0, 0, 0.25);
 }
 
 .discover__title {
@@ -27,4 +44,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: calc(23 / 16);
+}
+
+@media screen and (min-width: 769px) {
+  .discover__img {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }

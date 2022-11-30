@@ -4,5 +4,4 @@ https://anasurim.github.io/deterrener-nft-token/
 
 what to do:
 
-- tablet font size to fix
-- tablet styles to complete
+- hero img to fix

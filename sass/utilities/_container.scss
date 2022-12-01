@@ -1,4 +1,5 @@
 .container {
+  position: relative;
   min-width: 320px;
   max-width: 1440px;
   padding-left: 34px;
@@ -19,8 +20,24 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container--padd {
+  .container__users--padd {
     padding-right: 174px;
     padding-left: 174px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container__users--padd {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    padding-right: 70px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container__hero {
+    padding-right: 345px;
+    padding-left: 345px;
   }
 }

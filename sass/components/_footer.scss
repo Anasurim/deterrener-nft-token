@@ -42,4 +42,16 @@
   font-size: 10px;
   line-height: calc(14 / 10);
   color: #ffffff;
+
+  @media screen and (min-width: 1440px) {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer--desk-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

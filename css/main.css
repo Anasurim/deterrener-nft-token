@@ -26,6 +26,7 @@ img {
 }
 
 .container {
+  position: relative;
   min-width: 320px;
   max-width: 1440px;
   padding-left: 34px;
@@ -47,9 +48,27 @@ img {
   }
 }
 @media screen and (min-width: 768px) {
-  .container--padd {
+  .container__users--padd {
     padding-right: 174px;
     padding-left: 174px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container__users--padd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 0;
+    padding-right: 70px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container__hero {
+    padding-right: 345px;
+    padding-left: 345px;
   }
 }
 .logo {
@@ -360,6 +379,11 @@ img {
   background-image: linear-gradient(180deg, #ffd606 53.65%, rgba(254, 212, 4, 0) 65%, rgb(0, 0, 0) 88%, rgb(0, 0, 0) 100%), url("../img/deter-background.png");
   background-repeat: no-repeat;
 }
+@media screen and (min-width: 1024px) {
+  .hero {
+    padding-top: 230px;
+  }
+}
 @media screen and (min-width: 415px) {
   .hero {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(53.65%, #ffd606), color-stop(65%, rgba(254, 212, 4, 0)), color-stop(88%, rgb(0, 0, 0)), to(rgb(0, 0, 0))), url("../img/deter-background_md.png");
@@ -370,6 +394,11 @@ img {
   .hero {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(53.65%, #ffd606), color-stop(65%, rgba(254, 212, 4, 0)), color-stop(88%, rgb(0, 0, 0)), to(rgb(0, 0, 0))), url("../img/deter-background_lg.png");
     background-image: linear-gradient(180deg, #ffd606 53.65%, rgba(254, 212, 4, 0) 65%, rgb(0, 0, 0) 88%, rgb(0, 0, 0) 100%), url("../img/deter-background_lg.png");
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero {
+    background-repeat: repeat;
   }
 }
 
@@ -401,8 +430,6 @@ img {
 @media screen and (min-width: 768px) {
   .hero__text {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 32px;
     max-width: 466px;
   }
@@ -424,6 +451,29 @@ img {
     padding-right: 71px;
   }
 }
+@media screen and (min-width: 800px) {
+  .hero__cite-name {
+    margin-top: 300px;
+  }
+}
+@media screen and (min-width: 850px) {
+  .hero__cite-name {
+    margin-top: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero__cite-name {
+    margin-top: 400px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .hero__cite-name {
+    margin-top: 600px;
+  }
+}
 
 .hero__cite-text {
   display: inline-block;
@@ -441,6 +491,20 @@ img {
   }
 }
 
+@media screen and (min-width: 800px) {
+  .hero__img {
+    position: absolute;
+    top: 300px;
+    left: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero__img {
+    position: absolute;
+    top: 200px;
+    left: 0;
+  }
+}
 .about {
   background-color: #020306;
   padding-bottom: 60px;
@@ -612,8 +676,8 @@ img {
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .users {
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/deter-user_lg@2x.jpg");
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/deter-user_lg@2x.jpg");
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../img/deter-user_lg@2x.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/deter-user_lg@2x.jpg");
   }
 }
 
@@ -632,6 +696,11 @@ img {
 @media screen and (min-width: 768px) {
   .users__line-text {
     margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .users__line-text {
+    margin-bottom: 250px;
   }
 }
 
@@ -654,10 +723,20 @@ img {
     min-width: 366px;
   }
 }
+@media screen and (min-width: 768px) {
+  .users__text {
+    min-width: 766px;
+  }
+}
 
 .users__line-after {
   width: 100%;
   border-bottom: 6px solid #ffffff;
+}
+
+.users__wrapper {
+  max-width: 420px;
+  width: 100%;
 }
 
 .users__title {
@@ -741,4 +820,23 @@ img {
   font-size: 10px;
   line-height: 1.4;
   color: #ffffff;
+}
+@media screen and (min-width: 1440px) {
+  .footer__copyright {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer--desk-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }/*# sourceMappingURL=main.css.map */

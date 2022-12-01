@@ -1,0 +1,30 @@
+.to-top-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 72px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 10000;
+  border: none;
+  outline: none;
+  background-color: #6ba4c2; /* Set a background color */
+
+  cursor: pointer;
+
+  border-radius: 50%;
+
+  transition: background-color 250ms ease-in-out;
+
+  &:hover,
+  :focus {
+    background-color: #cfdae4;
+    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.icon-arrow {
+  fill: #1f2a46;
+}

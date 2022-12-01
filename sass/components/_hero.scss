@@ -1,6 +1,7 @@
 .hero {
   position: relative;
   padding-top: 160px;
+  z-index: 100;
 
   @media screen and (min-width: 1024px) {
     padding-top: 230px;
@@ -133,6 +134,11 @@
     line-height: calc(46 / 32);
     text-align: center;
   }
+}
+
+.hero__img {
+  z-index: 1;
+  pointer-events: none;
 }
 
 @media screen and (min-width: 800px) {
